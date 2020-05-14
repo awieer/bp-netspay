@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.berrypay.bps"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:9:5-66
+14-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:10:5-74
+15-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:10:22-72
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:11:5-78
+16-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="com.nets.netspay.QR_TRANSACTION" />
+17-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:12:5-70
+17-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:12:22-68
+18
+19    <permission
+19-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:15:5-17:55
+20        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+20-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:16:9-69
+21        android:protectionLevel="signatureOrSystem" />
+21-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:17:9-52
+22
+23    <application
+23-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:13:5-38:19
+24        android:name="io.flutter.app.FlutterApplication"
+24-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:14:9-57
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] /Users/Leg3ndZ/.gradle/caches/transforms-2/files-2.1/a528b13ac93e64cafa3d0480e2c93207/core-1.1.0/AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:16:9-43
+28        android:label="bps"
+28-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:15:9-28
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:22:9-54
+30        android:screenOrientation="portrait"
+30-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:23:9-45
+31        android:supportsRtl="true"
+31-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:24:9-35
+32        android:theme="@style/AppTheme" >
+32-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:25:9-40
+33        <activity
+33-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:18:9-29:20
+34            android:name="com.berrypay.bps.MainActivity"
+34-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:19:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:22:13-163
+36            android:hardwareAccelerated="true"
+36-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:23:13-47
+37            android:launchMode="singleTop"
+37-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:20:13-43
+38            android:theme="@style/LaunchTheme"
+38-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:21:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:24:13-55
+40            <intent-filter>
+40-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:26:17-68
+41-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:27:17-76
+43-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.berrypay.bps.NetsActivity" />
+46-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:30:9-59
+46-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:30:19-47
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:33:9-35:33
+52            android:name="flutterEmbedding"
+52-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:34:13-44
+53            android:value="2" />
+53-->/Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/android/app/src/main/AndroidManifest.xml:35:13-30
+54
+55        <activity
+55-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:26:9-31:20
+56            android:name="com.nets.enets.view.PaymentCardDetails"
+56-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:27:13-66
+57            android:label="@string/title_activity_payment_card_details"
+57-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:28:13-72
+58            android:screenOrientation="portrait"
+58-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:29:13-49
+59            android:theme="@style/AppTheme.NoActionBar" >
+59-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:30:13-56
+60        </activity>
+61        <activity
+61-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:32:9-37:20
+62            android:name="com.nets.enets.view.OTPCallBackWebView"
+62-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:33:13-66
+63            android:label="@string/title_activity_otpcall_back_web_view"
+63-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:34:13-73
+64            android:screenOrientation="portrait"
+64-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:35:13-49
+65            android:theme="@style/AppTheme.NoActionBar" >
+65-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:36:13-56
+66        </activity>
+67        <activity
+67-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:38:9-52:20
+68            android:name="com.nets.enets.view.DeeplinkInterceptorActivity"
+68-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:39:13-75
+69            android:launchMode="singleTask"
+69-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:40:13-44
+70            android:screenOrientation="portrait" >
+70-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:41:13-49
+71            <intent-filter>
+71-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:42:13-51:29
+72                <action android:name="android.intent.action.VIEW" />
+72-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:43:17-69
+72-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:43:25-66
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:45:17-76
+74-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:45:27-73
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:46:17-78
+75-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:46:27-75
+76
+77                <data
+77-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:48:17-50:53
+78                    android:host="payment"
+78-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:49:21-43
+79                    android:scheme="enetstestapp" />
+79-->[:enetslib-uat-release_v1.2.5] /Users/Leg3ndZ/Desktop/Workspace/Flutter/bps/bps/bps/build/enetslib-uat-release_v1.2.5/.transforms/78db0e624fc19a1766bbb36b05a679cf/jetified-enetslib-uat-release_v1.2.5/AndroidManifest.xml:50:21-50
+80            </intent-filter>
+81        </activity>
+82    </application>
+83
+84</manifest>

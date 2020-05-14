@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nets.enets.view.PaymentCardDetails"
+    tools:showIn="@layout/activity_payment_card_details">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="331dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+
+            android:layout_weight="1"
+            android:background="@color/card_detail_next_btn"
+            android:elevation="0dp"
+            android:text="Confirm Payment"
+            android:textAllCaps="false"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:textAllCaps="false"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="448dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+
+        <!-- <com.google.android.material.textfield.TextInputLayout
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginLeft="52dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginTop="20dp"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:hint="Card holder`s name">
+
+                 <EditText
+                     android:id="@+id/card_holder_name"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="10dp"
+                     android:inputType="text" android:maxLength="20"/>
+             </com.google.android.material.textfield.TextInputLayout>-->
+
+        <!--  <TextView
+                  android:id="@+id/cardnumber"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="15dp"
+                  android:layout_marginLeft="52dp"
+                  android:layout_marginTop="20dp"
+                  android:text="Card Number"
+                  android:textColor="@color/colorPrimaryDark"
+                  android:textSize="16sp"/>-->
+        <LinearLayout
+            android:id="@+id/img_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/visa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp" app:srcCompat="@drawable/visa"/>
+
+            <ImageView
+                android:id="@+id/master"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp" app:srcCompat="@drawable/mastercard"/>
+
+            <ImageView
+                android:id="@+id/amex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/amex"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.15">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="50dp"
+                    android:hint="@string/card_number_hint">
+
+                    <com.nets.enets.utils.creditcardtextview.CreditCardEditText
+                        android:id="@+id/cardnumber_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:ems="10"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="19"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <!--
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="Expiry(mm/yy)"
+                        android:inputType="date"/>
+
+                    <EditText
+                        android:id="@+id/editText3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10" android:hint="CVV"
+                        android:inputType="number"/>-->
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.59"
+                android:hint="Exp(mm)"
+                android:nextFocusForward="@+id/yy_txt_input">
+
+                <EditText
+                    android:id="@+id/month_txt"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="date"
+                    android:maxLength="2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="bottom|center_horizontal"
+                android:text="/"
+                android:textSize="24sp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:id="@+id/yy_txt_input"
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.59"
+                android:hint="Exp(yy)"
+                android:nextFocusForward="@+id/cvv_txt">
+
+                <EditText
+                    android:id="@+id/year_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="date"
+                    android:maxLength="2"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="103dp"
+                android:layout_height="match_parent"
+                android:hint="CVV">
+
+                <EditText
+                    android:id="@+id/cvv_txt"
+                    android:layout_width="92dp"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="4"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+        <!--      <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.15">
+        -->
+
+        <!--  </FrameLayout>-->
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

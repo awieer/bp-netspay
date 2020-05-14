@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_detail_next_btn">#41a2df</color>
+    <color name="colorAccent">#ff7940</color>
+    <color name="colorPrimary">#3f7ab5</color>
+    <color name="colorPrimaryDark">#285f93</color>
+    <color name="divider_color">#d9d7d7</color>
+    <color name="title_color">#828383</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+    <item name="ic_menu_gallery" type="drawable">@android:drawable/ic_menu_gallery</item>
+    <item name="ic_menu_manage" type="drawable">@android:drawable/ic_menu_manage</item>
+    <item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+    <item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+    <item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+    <item name="masked" type="id"/>
+    <item name="visible" type="id"/>
+    <string name="action_settings">Settings</string>
+    <string name="alert_dialog_card_details_error_title">Error occurred</string>
+    <string name="alert_dialog_card_details_expdate_format_error_title">Error occurred</string>
+    <string name="alert_dialog_error_title">Error occurred</string>
+    <string name="app_name">Demo Merchant App</string>
+    <string name="bt_card_number_invalid">Card number is invalid</string>
+    <string name="bt_card_number_required">Card number is required</string>
+    <string name="bt_cid">CID</string>
+    <string name="bt_cvc">CVC</string>
+    <string name="bt_cvn">CVN</string>
+    <string name="bt_cvv">CVV</string>
+    <string name="card_details__date_field_format_error">Month field is in invalid format.</string>
+    <string name="card_details__date_field_format_topic">Invalid date format.</string>
+    <string name="card_details_components_loading_error">Error occurred during loading card details
+        page. Please try again.
+    </string>
+    <string name="card_details_data_loading_error">Invalid data received. Please try again.</string>
+    <string name="card_details_data_loading_error_topic">Invalid data</string>
+    <string name="card_details_date_format_error">Error occurred during formating the credit/debit
+        card date. Please try again with mm/yy format.
+    </string>
+    <string name="card_details_empty_cc_field_error">Credit/Debit card number field cannot be empty.
+    </string>
+    <string name="card_details_empty_cc_number_field_topic">Invalid Card Number</string>
+    <string name="card_details_empty_cvv_field_error">CVV cannot be empty.</string>
+    <string name="card_details_empty_cvv_field_invalid">Invalid CVV</string>
+    <string name="card_details_empty_cvv_number_field_topic">Invalid CVV</string>
+    <string name="card_details_empty_date_field_error">Date field cannot be empty or invalid
+        length.
+    </string>
+    <string name="card_details_empty_month_field_error">Expiration month cannot be empty.</string>
+    <string name="card_details_empty_month_field_topic">Invalid Month</string>
+    <string name="card_details_empty_name_field_error">Name cannot be empty.</string>
+    <string name="card_details_empty_name_field_topic">Invalid Name</string>
+    <string name="card_details_empty_year_field_error">Expiration year cannot be empty.</string>
+    <string name="card_details_empty_year_field_topic">Invalid Year</string>
+    <string name="card_details_error">Card details are not in the correct format. Please try
+        again.
+    </string>
+    <string name="card_details_error_topic">Invalid card details.</string>
+    <string name="card_details_invalid_cc_field_error">Credit/Debit card number is invalid. Please
+        try again.
+    </string>
+    <string name="card_details_invalid_cvv_field_error">Invalid CVV length.</string>
+    <string name="card_details_month_field_error">Enter valid month for expiration date.</string>
+    <string name="card_details_month_field_length_error">Expiration year is format should be mm
+    </string>
+    <string name="card_details_wrong_month_field_topic">Invalid expiration month.</string>
+    <string name="card_details_wrong_year_field_length">Expiration year is format should be yyyy
+    </string>
+    <string name="card_details_wrong_year_field_topic">Invalid expiration date.</string>
+    <string name="card_number_hint">Card Number</string>
+    <string name="card_number_wrong_length_error">Wrong credit card number length. Please enter
+        valid number.
+    </string>
+    <string name="card_number_wrong_length_topic">Invalid Credit Card Number</string>
+    <string name="continue_btn_txt">OK</string>
+    <string name="credit_card_expiry_error">Credit card has expired. Please try
+        again with different card.
+    </string>
+    <string name="credit_card_expiry_error_topic">Credit Card Expired</string>
+    <string name="enter_card_number">Enter card number</string>
+    <string name="invalid_credit_card_number_format_error">Credit card number is invalid. Please try
+        again.
+    </string>
+    <string name="invalid_credit_card_number_format_topic">Invalid card number</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="network_listener_null_error_msg">RequestListener cannot be null.</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_otpcall_back_web_view">OTPCallBackWebView</string>
+    <string name="title_activity_payment_card_details">PaymentCardDetails</string>
+    <string name="webview_error_description">Error occurred during web page loading. Please try
+        again.
+    </string>
+    <string name="wrong_credit_card_amex_error">AMEX is not allowed with this merchant</string>
+    <string name="wrong_credit_card_error">VISA/MasterCard is not allowed with this merchant</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!---->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#ff7940</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+</resources>
